@@ -1,0 +1,146 @@
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.7;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    border-bottom: 1px solid #eeeeee;
+}
+
+nav h2 {
+    font-family: Georgia, serif;
+    color: #263b53;
+    font-size: 22px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 22px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444444;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #7890aa;
+}
+
+
+/* Introduction */
+
+header {
+    padding: 65px 10% 45px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    color: #263b53;
+}
+
+header h3 {
+    font-weight: normal;
+    color: #7890aa;
+    margin: 5px 0 18px;
+}
+
+header p {
+    max-width: 650px;
+}
+
+
+/* Sections */
+
+main {
+    padding: 0 10%;
+}
+
+section {
+    padding: 28px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+section h2 {
+    font-family: Georgia, serif;
+    color: #263b53;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+section h3 {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+section p {
+    font-size: 15px;
+}
+
+
+/* Skills */
+
+section ul {
+    padding-left: 20px;
+}
+
+section li {
+    margin-bottom: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 22px;
+    color: #7890aa;
+    font-size: 13px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    header {
+        padding-top: 40px;
+    }
+
+}
